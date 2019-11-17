@@ -1,0 +1,1 @@
+NOTE: rename folder from 8b10b_encoder to encoder_8b10b
