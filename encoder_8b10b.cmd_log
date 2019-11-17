@@ -1,0 +1,19 @@
+xst -intstyle ise -ifn "F:/verilog_work/encoder_8b10b/encoder_8b10b.xst" -ofn "F:/verilog_work/encoder_8b10b/encoder_8b10b.syr" 
+xst -intstyle ise -ifn "F:/verilog_work/encoder_8b10b/encoder_8b10b.xst" -ofn "F:/verilog_work/encoder_8b10b/encoder_8b10b.syr" 
+xst -intstyle ise -ifn "F:/verilog_work/encoder_8b10b/encoder_8b10b.xst" -ofn "F:/verilog_work/encoder_8b10b/encoder_8b10b.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 encoder_8b10b.ngc encoder_8b10b.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o encoder_8b10b_map.ncd encoder_8b10b.ngd encoder_8b10b.pcf 
+par -w -intstyle ise -ol high -t 1 encoder_8b10b_map.ncd encoder_8b10b.ncd encoder_8b10b.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml encoder_8b10b.twx encoder_8b10b.ncd -o encoder_8b10b.twr encoder_8b10b.pcf 
+xst -intstyle ise -ifn "F:/verilog_work/encoder_8b10b/encoder_8b10b.xst" -ofn "F:/verilog_work/encoder_8b10b/encoder_8b10b.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 encoder_8b10b.ngc encoder_8b10b.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o encoder_8b10b_map.ncd encoder_8b10b.ngd encoder_8b10b.pcf 
+par -w -intstyle ise -ol high -t 1 encoder_8b10b_map.ncd encoder_8b10b.ncd encoder_8b10b.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml encoder_8b10b.twx encoder_8b10b.ncd -o encoder_8b10b.twr encoder_8b10b.pcf 
+xst -intstyle ise -ifn "F:/verilog_work/encoder_8b10b/encoder_8b10b.xst" -ofn "F:/verilog_work/encoder_8b10b/encoder_8b10b.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 encoder_8b10b.ngc encoder_8b10b.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o encoder_8b10b_map.ncd encoder_8b10b.ngd encoder_8b10b.pcf 
+par -w -intstyle ise -ol high -t 1 encoder_8b10b_map.ncd encoder_8b10b.ncd encoder_8b10b.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml encoder_8b10b.twx encoder_8b10b.ncd -o encoder_8b10b.twr encoder_8b10b.pcf 
+xst -intstyle ise -ifn "F:/verilog_work/encoder_8b10b/encoder_8b10b.xst" -ofn "F:/verilog_work/encoder_8b10b/encoder_8b10b.syr" 
+xst -intstyle ise -ifn "F:/verilog_work/encoder_8b10b/encoder_8b10b.xst" -ofn "F:/verilog_work/encoder_8b10b/encoder_8b10b.syr" 

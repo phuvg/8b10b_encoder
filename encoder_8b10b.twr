@@ -1,0 +1,141 @@
+--------------------------------------------------------------------------------
+Release 13.1 Trace  (nt)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+
+F:\ProgramFiles\ISE\ISE_DS\ISE\bin\nt\unwrapped\trce.exe -intstyle ise -v 3 -s
+5 -n 3 -fastpaths -xml encoder_8b10b.twx encoder_8b10b.ncd -o encoder_8b10b.twr
+encoder_8b10b.pcf
+
+Design file:              encoder_8b10b.ncd
+Physical constraint file: encoder_8b10b.pcf
+Device,package,speed:     xc3s500e,fg320,-5 (PRODUCTION 1.27 2011-02-03)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+ain            |a              |    7.516|
+ain            |b              |    6.996|
+ain            |c              |    9.861|
+ain            |d              |    7.057|
+ain            |e              |   10.580|
+ain            |f              |    7.880|
+ain            |g              |    8.088|
+ain            |h              |    8.575|
+ain            |i              |    6.771|
+ain            |j              |    9.703|
+bin            |a              |    7.007|
+bin            |b              |    6.775|
+bin            |c              |    9.996|
+bin            |d              |    5.545|
+bin            |e              |   10.715|
+bin            |f              |    8.015|
+bin            |g              |    8.223|
+bin            |h              |    8.710|
+bin            |i              |    6.637|
+bin            |j              |    9.838|
+cin            |a              |    7.342|
+cin            |b              |    7.141|
+cin            |c              |    9.558|
+cin            |d              |    7.459|
+cin            |e              |   10.277|
+cin            |f              |    7.577|
+cin            |g              |    7.785|
+cin            |h              |    8.272|
+cin            |i              |    6.862|
+cin            |j              |    9.400|
+din            |a              |    6.160|
+din            |b              |    6.321|
+din            |c              |    9.590|
+din            |d              |    6.875|
+din            |e              |   10.309|
+din            |f              |    7.609|
+din            |g              |    7.817|
+din            |h              |    8.304|
+din            |i              |    6.455|
+din            |j              |    9.432|
+ein            |a              |    7.526|
+ein            |b              |    7.029|
+ein            |c              |    9.894|
+ein            |d              |    6.751|
+ein            |e              |   10.613|
+ein            |f              |    7.913|
+ein            |g              |    8.121|
+ein            |h              |    8.608|
+ein            |i              |    6.983|
+ein            |j              |    9.736|
+fin            |f              |    5.863|
+fin            |g              |    6.886|
+fin            |h              |    6.604|
+fin            |j              |    6.411|
+gin            |f              |    5.997|
+gin            |g              |    6.205|
+gin            |h              |    6.504|
+gin            |j              |    6.284|
+hin            |f              |    6.262|
+hin            |g              |    5.655|
+hin            |h              |    6.396|
+hin            |j              |    6.060|
+is_special     |a              |    6.809|
+is_special     |b              |    7.057|
+is_special     |c              |    8.901|
+is_special     |d              |    6.332|
+is_special     |e              |    9.620|
+is_special     |f              |    6.920|
+is_special     |g              |    7.128|
+is_special     |h              |    7.615|
+is_special     |i              |    6.098|
+is_special     |j              |    8.743|
+rin            |a              |    7.177|
+rin            |b              |    6.894|
+rin            |c              |    9.298|
+rin            |d              |    6.436|
+rin            |e              |    9.010|
+rin            |f              |    5.647|
+rin            |g              |    5.855|
+rin            |h              |    5.824|
+rin            |i              |    6.119|
+rin            |j              |    7.667|
+---------------+---------------+---------+
+
+
+Analysis completed Sun Nov 17 09:37:22 2019 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 132 MB
+
+
+

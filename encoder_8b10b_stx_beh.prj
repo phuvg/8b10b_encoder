@@ -1,0 +1,2 @@
+verilog isim_temp "encoder_8b10b.v"
+verilog isim_temp "F:/ProgramFiles/ISE/ISE_DS/ISE//verilog/src/glbl.v"
